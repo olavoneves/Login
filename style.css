@@ -5,22 +5,77 @@
     padding: 0px;
 }
 
-body {
-    background: linear-gradient(to bottom, rgba(152, 174, 180, 1), rgba(113, 126, 128, 1), rgba(210, 210, 206, 1));
+html {
+    background: linear-gradient(to bottom, rgba(210, 210, 206, 1), rgba(152, 174, 180, 1), rgba(98, 122, 126, 1));
     background-repeat: no-repeat;
     height: 100vh;
 }
 
-div.login {
-    background: linear-gradient(to bottom, rgba(210, 210, 206, 1), rgba(152, 174, 180, 1), rgba(98, 122, 126, 1));
-    background-repeat: no-repeat;
-}
-
-div.cadastro {
-    background: linear-gradient(to bottom, rgba(210, 210, 206, 1), rgba(152, 174, 180, 1), rgba(98, 122, 126, 1));
-    background-repeat: no-repeat;
-}
-
 div.elipse_titulo {
     background: linear-gradient(to bottom, rgba(210, 210, 206, 1), rgba(152, 174, 180, 1), rgba(152, 174, 180, 1));
+    margin: 40px auto;
+    padding: 50px;
+    box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.256);
+    height: 10vh;
+    width: 10vw;
+    border-radius: 50%;
+}
+
+div.elipse_titulo_cadastro {
+    background: linear-gradient(180deg, rgba(210, 210, 206, 1), rgba(152, 174, 180, 1), rgba(152, 174, 180, 1));
+    margin: 40px auto;
+    padding: 50px;
+    box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.256);
+    height: 10vh;
+    width: 10vw;
+    border-radius: 50%;
+}
+
+div.elipse_subtitulo {
+    background: linear-gradient(to bottom, rgba(210, 210, 206, 1), rgba(152, 174, 180, 1), rgba(152, 174, 180, 1));
+    margin: auto;
+    padding: 5px;
+    box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.256);
+    height: 3vh;
+    width: 3vw;
+    border-radius: 50%;
+}
+
+.login {
+    text-align: center;
+    margin: 15px 0px 0px 0px;
+}
+
+.cadastro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div.form {
+    width: 30vw;
+    margin: auto;
+}
+
+#email {
+    background-color: white;
+    box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.25);
+    width: 30vw;
+    margin: 0px auto 10px auto;
+    border: none;
+    padding: 4px 4px 4px 8px;
+    border-radius: 40px;
+}
+
+#senha {
+    background-color: white;
+    box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.25);
+    width: 30vw;
+    margin: 0px auto 10px auto;
+    border: none;
+    padding: 4px 4px 4px 8px;
+    border-radius: 40px;
+}
+
+label.confirmar_senha {
+    background-color: rgba(0, 0, 0, 0);
 }
