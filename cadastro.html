@@ -18,18 +18,19 @@
         <h1 class="cadastro">Cadastro</h1>
         <div class="form">
             <input type="email" name="email" id="email" placeholder="Digite seu e-mail"> <br>
-            <input type="password" name="senha" id="senha" placeholder="Digite sua senha"> <br>
-        <label for="confirmar_senha" class="confirmar_senha">Confirmar senha
-            <input type="password" name="confirmar_senha" id="confirmar_senha" placeholder="********">
+            <input type="password" name="senha" id="senha" placeholder="Digite sua senha" maxlength="8"> <br>
+        <label for="confirmar_senha" class="confirmar_senha">Confirmar senha:
+            <input type="password" name="confirmar_senha" id="confirmar_senha" placeholder="********" maxlength="8">
         </label> <br>
-        <label for="sms">
-            <input type="checkbox" name="sms" id="sms">
-            <input type="checkbox" name="sms" id="sms">
-        </label>
-        <button>
-            <a href="index.html"><input type="submit" value="confirmar"></a>
-        </button>
-        </div>
+        <div class="confirmar_codigo">
+            <div class="sms-group">
+              <input type="checkbox" id="email_sms">
+              <label for="email_sms">E-mail</label>
+              <input type="checkbox" id="sms">
+              <label for="sms">SMS</label>
+            </div>
+            <a href="index.html"><button class="confirmar">Confirmar</button></a>
+          </div>
     </div>
 </body>
 
