@@ -49,17 +49,6 @@ div.elipse_titulo_cadastro {
     justify-content: center;
 }
 
-div.elipse_subtitulo {
-    background: linear-gradient(to bottom, rgba(210, 210, 206, 1), rgba(152, 174, 180, 1), rgba(152, 174, 180, 1));
-    margin: auto;
-    padding: 5px;
-    box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.256);
-    height: 1vh;
-    width: 1vw;
-    border-radius: 50%;
-    justify-content: center;
-}
-
 .login {
     text-align: center;
     margin-bottom: 20px;
@@ -98,7 +87,7 @@ div.form {
     padding: 4px 4px 4px 8px;
     border-radius: 40px;
     cursor: pointer;
-    background-image: url(../Imagens/Iconoir-Team-Iconoir-Eye-empty.512.png);
+    background-image: url(../Imagens/Aniket-Suvarna-Box-Regular-Bx-user.512.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: right;
@@ -107,16 +96,32 @@ div.form {
 #senha {
     background-color: white;
     box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.25);
-    width: 30vw;
+    width: 100%;
     margin: 0px auto 10px auto;
     border: none;
-    padding: 4px 4px 4px 8px;
+    padding: 4px 35px 4px 8px;
+    box-sizing: border-box;
     border-radius: 40px;
     cursor: pointer;
-    background-image: url(../Imagens/Iconoir-Team-Iconoir-Eye-off.512.png);
-    background-repeat: no-repeat;
+}
+
+.container_senha {
+    position: relative;
+    width: 30vw;
+    margin: 0 auto;
+}
+  
+.icone-senha {
+    position: absolute;
+    right: 5px;
+    top: 35%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+    background-image: url('../Imagens/Iconoir-Team-Iconoir-Eye-off.512.png');
     background-size: contain;
-    background-position-x: right;
+    cursor: pointer;
+    z-index: 2; /* ficar acima do input */
 }
 
 .button_home {

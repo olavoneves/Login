@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
+    <script src="scrpt.js" defer></script>
 </head>
 
 <body>
@@ -14,11 +15,13 @@
         <h1 class="login">Login</h1>
         <div class="form">
             <input type="email" name="email" id="email" placeholder="Digite seu e-mail"> <br>
-            <input type="password" name="senha" id="senha" placeholder="Digite sua senha" maxlength="8"> <br>
+            <div class="container_senha">
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha" maxlength="8">
+                <span id="icone-olho" class="icone-senha"></span> <br>
+            </div>
             <label for="cadastro" class="button_home">
-                <a href="cadastro.html"><input type="submit" value="cadastro" class="button_cadastro"></a>
-                <a href="#"
-                    target="_self"><input type="submit" value="login" class="button_login"></a>
+                <a href="cadastro.html"><input type="submit" value="Cadastro" class="button_cadastro"></a>
+                <a href="#" target="_self"><input type="submit" value="Login" class="button_login"></a>
             </label>
         </div>
     </div>
